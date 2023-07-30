@@ -1,10 +1,11 @@
-import './App.css';
+import Container from './Container/script';
 import Header from './Header/script';
+i
+    return (
+      <>
+        <Header />
+        <Container />
+      </>
+    );
 
-function App() {
-  return (
-    <Header/>
-  );
-}
-
-export default App;
+  export default App;
