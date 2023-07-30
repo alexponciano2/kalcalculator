@@ -1,11 +1,12 @@
 import Container from './Container/script';
 import Header from './Header/script';
-i
-    return (
-      <>
-        <Header />
-        <Container />
-      </>
-    );
 
-  export default App;
+function App() {
+  return (
+    <>
+      <Header />
+      <Container />
+    </>
+  );
+}
+export default App;
