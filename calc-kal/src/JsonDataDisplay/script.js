@@ -1,5 +1,6 @@
 import React from 'react'
 import JsonData from '../../src/json/data.json';
+import styles from './JsonDataDisplay.module.css'
 
 function JsonDataDisplay(){
     const DisplayData=JsonData.map(
@@ -18,7 +19,7 @@ function JsonDataDisplay(){
   
     return(
         <div>
-            <table class="table table-stripped">
+            <table className={styles.table}>
                 <thead>
                     <tr>
                     <th>Monstro</th>
