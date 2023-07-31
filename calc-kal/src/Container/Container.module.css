@@ -5,7 +5,7 @@
     border-radius: 15px;
     padding: 10px;
     position: relative;
-    max-width: 400px;
+    /* max-width: 400px; */
     height: 100%;
     top: 0;
     bottom: 0;
@@ -20,4 +20,8 @@ input {
     height: 30px;
     display: flexbox;
     margin-left: 10px;
+}
+
+label {
+    font-size: 1.5rem;
 }

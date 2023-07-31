@@ -24,24 +24,22 @@ function App() {
           <br /><br />
           <label htmlFor="num1">Level do mais noob:</label>
           <input
-            className= "input1"
+            className="input1"
             type="number"
             value={num1}
             onChange={e => setNum1(+e.target.value)}
           /><br />
           <label htmlFor="num1">Level do mais forte:</label>
           <input
-            className= "input2"
+            className="input2"
             type="number"
             value={num2}
             onChange={e => setNum2(+e.target.value)}
           /><br />
           <button className="calcular" onClick={handleSum}>CALCULAR</button>
-          <p>Resultado: {result}</p>
         </div>
       </Container>
-      <JsonDataDisplay/>
-      <Footer/>
+      <Footer />
     </>
   );
 }
